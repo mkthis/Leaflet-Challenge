@@ -39,7 +39,6 @@ function createFeatures(earthquakeData) {
 }
 
   function onEachFeature(feature, layer) {
-    s
     layer.bindPopup(
         "<h3>Location: " + feature.properties.place + "<br> Magnitude: " + 
         feature.properties.mag +"<br>Depth: " + feature.geometry.coordinates[2] + 
